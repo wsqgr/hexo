@@ -3,7 +3,9 @@
   "version": "7.8.0",
   "description": "Elegant and powerful theme for Hexo.",
   "main": "gulpfile.js",
-  "scripts": {"build": "hexo generate"
+  "scripts": {"start": "hexo server",
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "build": "hexo generate"
     "test": "gulp"
   },
   "repository": {
